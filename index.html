@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsiva</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-container__logo">
+                <a href="#">
+                    <img src="assets/Logo.png" alt="Logo da Página" title="Logo">
+                    <span>Guideline</span>
+                </a>
+            </div>
+            <div class="nav-container__contact">
+                <div class="contact-card">
+                    <a class="contact-card__link" href="tel:8882283491">
+                        <img class="contact-card__phone-img"src="assets/iconTel.png" alt="Ícone de um telefone" title= "Telefone">
+                        <span class="contact-card--none">(888) 228-3491</span>
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <a class="contact-card__link" href="mailto:hello@guideline.com">
+                        <img class="contact-card__email-img"src="assets/iconEmail.png" alt="Ícone de um Email" title="Email">
+                        <span class="contact-card--none">hello@guideline.com</span>
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <a class="contact-card__link" href="#">
+                        <span>Log in</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section class="container-register">
+            <div class="container-register__theme">
+                <h1 class="theme__item theme__item--h1-font-size">
+                    Effortless 401(k).<br>
+                    Great Price.
+                </h1>
+                <p class="theme__item theme__item--p-margin theme__item--p-normal">
+                    We do all the hard work to help you and your employees save.
+                </p>
+                <p class="theme__item theme__item--p-margin theme__item--p-weight">
+                    Plan Administration, Compliance, and Investment Management
+                </p>
+            </div>
+            <div class="container-register__catch">
+                <h2>
+                    Let's get started
+                </h2>
+                <form class= "container-register__form" action="#" method="">
+                    <input class= "container-register__input" name="First Name" type="text" placeholder="First Name"
+                    autocomplete="on">
+                    <input class= "container-register__input" name="Last Name" type="text" placeholder="Last Name"
+                    autocomplete="on">
+                    <input class="container-register__input container-register__input--column" name="Email" type="email" placeholder="Work email address"
+                    autocomplete="on">
+                </form>
+                <button class="container-register__button container-register__button--background-color-white" formatarget="_blank" type="button" name="Demo">Schedule a demo<button>
+                <button class="container-register__button container-register__button--background-color-blue" formatarget="_blank" type="button" name="Talk">Talk to a Specialist<button>
+            </div>
+        </section>
+    </header>
+    <main class="main-container">
+        <div class="main-container__introduction">
+            <h1 class="introduction__item introduction__item--font-normal">Say Hello to a Full Service Plan</h1>
+            <p class="introduction__item introduction__item--font-size">By doing it all, we keep fees down and let you focus on what's most important.</p>
+        </div>
+        <div class="main-container__cards">
+            <div class="main-container__card">
+                <img class="card__img" src="assets/iconIdeia.png" alt="Ícone Work for you" title= "Work for you">
+                <h2 class="card__item card__item--h2-font-size">Less work for you</h2>
+                <p class="card__item card__item--p-font-size">We integrate with your payroll and handle all the reporting, compliance, and investments</p>
+            </div>
+            <div class="main-container__card">
+                <img class="card__img" src="assets/iconselect.png" alt="Ícone Flexible" title= "Super flexible">
+                <h2 class="card__item card__item--h2-font-size">Super flexible</h2>
+                <p class="card__item card__item--p-font-size">We offer safe harbor, profit sharing, vesting, and 41 low-cost mutual funds from providers like Vanguard.</p>
+            </div>
+            <div class="main-container__card">
+                <img class="card__img" src="assets/iconmoeda.png" alt="Ícone Everyone saves" title= "Everyone saves">
+                <h2 class="card__item card__item--h2-font-size">Less work for you</h2>
+                <p class="card__item card__item--p-font-size">We integrate with your payroll and handle all the reporting, compliance, and investments</p>
+            </div>
+        </div>
+        <div class="main-container__button">
+            <button class="button-finaly" formatarget="_blank" type="button" name="Demo">Schedule a demo<button>
+        </div>
+    </main>
+</body>
+</html>
